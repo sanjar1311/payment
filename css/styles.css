@@ -65,12 +65,23 @@ img {
   font-weight: 600;
 }
 
+.main-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+
       /* CHOCO-BAR */
+
+.choco-bar {
+  flex: 1;
+}
 
 .choco-bar-list {
   max-width: 600px;
   list-style: none;
-  box-shadow: 4px 4px 25px 4px #eee;
+  box-shadow: 3px 3px 20px 3px #ddd;
   padding: 30px;
   border-radius: 10px;
   display: block;
@@ -136,8 +147,96 @@ img {
   border-bottom: 1px solid rgb(224, 220, 220);
 }
 
+      /* PAYMENT  INFORMATION */
 
+.pay-info {
+  flex: 2;
+}
 
+.payment {
+  max-width: 900px;
+  padding: 30px;
+  box-shadow: 3px 3px 20px 3px #ddd;
+  border-radius: 10px;
+}
+
+.card-number {
+  display: block;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #A5A8A4;
+  margin-bottom: 30px;
+}
+
+.card-number input{
+  width: 100%;
+  padding: 10px 0 4px 10px;
+  border: 2px solid #A5A8A4;
+  border-radius: 5px;
+}
+
+.label {
+  display: flex;
+  flex-direction: column;
+}
+
+.label-1 {
+  flex: 3;
+  margin-right: 30px;
+}
+
+.label-2 {
+  flex: 2;
+  margin-right: 30px;
+}
+
+.label-3 {
+  flex: 1;
+}
+
+.card-holder{
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #A5A8A4;
+}
+
+.holder-input {
+  max-width: 400px;
+  padding: 7px 0 7px 10px;
+  border: 2px solid #A5A8A4;
+  border-radius: 5px;
+}
+
+.exp-date {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #A5A8A4;
+}
+
+.exp-input {
+  max-width: 300px;
+  padding: 7px 0 7px 10px;
+  border: 2px solid #A5A8A4;
+  border-radius: 5px;
+}
+
+.cvc {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #A5A8A4;
+}
+
+.cvc-input {
+  max-width: 200px;
+  padding: 10px 0 4px 10px;
+  border: 2px solid #A5A8A4;
+  border-radius: 5px;
+}
+
+.inline-inputs {
+  display: flex;
+  justify-content: space-between;
+}
 
 
 
