@@ -70,26 +70,20 @@ img {
   align-items: center;
 }
 
-.order-link, .order-link1, .order-link2 {
+.order-link {
   position: relative;
   text-decoration: none;
   color: #555;
-}
-
-.order-link1, .order-link2{
-  margin-right: 15px;
+  margin: 0 8px;
 }
 
 .order-link1 {
   padding-right: 5px;
 }
 
-.order-link {
-  padding-left: 5px;
-}
-
 .order-link1::after,
-.order-link2::after {
+.order-link2::after,
+.order-link3::after {
   content: "";
   display: block;
   position: absolute;
@@ -98,4 +92,8 @@ img {
   background-color: #555;
   height: 1px;
   width: 5px;
+}
+
+.order-active {
+  font-weight: bold;
 }
